@@ -1,0 +1,65 @@
+<PE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <me!DOCTYta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Encuesta Cinematográfica</title>
+        <link rel="icon" href="img/favicon.ico">
+
+    </head>
+
+    <body>
+        <div id="Header">
+        <h2 style="text-align: center" >
+            <img src="imagen.jpg" style="height:70px" width="90">
+             Encuesta de Cine: Nominadas al Oscar 2021
+             <img src="imagen.jpg" style="height:70px" width="90">
+            </h2> 
+         
+        <form id="formulario1" name="formulario1" method="post" action="data.php">
+            <fieldset id="datos_personales">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre"><br>
+
+                <label for="apellidos">Apellidos</label><br>
+                <input type="text" name="apellidos" id="apellidos"><br>
+
+                <label for="dni">DNI</label><br>
+                <input type="text" name="DNI" id="DNI" maxlength="9"><br>
+
+                <label for="edad">Edad</label><br>
+                <input type="text" name="edad" id="Edad" size="2" maxlength="2"><br>
+                 
+                <label for="sexo">Sexo</label><br>
+                <select name="sexo">
+                    <option>.... </option>
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                </select>
+            
+            </fieldset>      
+
+            <fieldset id="mejor_películas">
+                <legend>Mejor Película</legend>
+                <input type="radio" name="pelicula" value="11"> EL Padre<br>
+                <input type="radio" name="pelicula" value="22"> Mank<br>
+                <input type="radio" name="pelicula" value="33"> Minari<br>
+                <input type="radio" name="pelicula" value="44"> Judas And The Black Messiah<br>
+            </fieldset>
+
+            <fieldset id="Grupo_argumento">
+                <legend>Argumento de tu pelicula preferida</legend>
+                 <textarea id="argumento" name="argumento" rows ="14" cols="50" ></textarea>
+            </fieldset>
+
+            <br>
+            <input type="reset" vale="Borrar Formulario">
+            <input type="submit" value="enviar">
+
+        </form>  
+    </div>   
+        
+    </body>
+</html>
