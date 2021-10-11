@@ -1,0 +1,35 @@
+header{
+    background-color: coral;
+    height: 150px;
+}
+
+nav{
+    background-color:cornflowerblue;
+    width:25% ;
+}
+
+section{
+    background-color: darkkhaki;
+    width:50% ;
+}
+
+aside{
+    background-color: darksalmon;
+    width:25% ;
+}
+
+footer{
+    background-color: darkseagreen;
+    height:100% ;
+    clear: left;
+}
+
+nav, 
+aside,
+section {
+    float: left;
+    height: 350px;
+
+}
+
+
