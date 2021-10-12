@@ -4,6 +4,12 @@
 }
 
 #caja3{
-   background-color:green;
+   background-color:cadetblue;
+}
+
+.img {
+    width: 280x;
+    height: 165px;
+    float:left;
 }
 

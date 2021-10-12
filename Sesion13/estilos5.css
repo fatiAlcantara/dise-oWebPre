@@ -1,0 +1,11 @@
+.externo{
+    font-family: verdana;
+}
+a[class ="externo"]{
+    color: rgb(255, 211, 154);
+}
+
+a[href ^= "mailto"]{
+    font-family: verdana;
+    color: rgb(255, 145, 145);
+}
